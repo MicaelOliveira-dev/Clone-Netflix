@@ -39,6 +39,7 @@ body {
     align-items:center;
     justify-content:center;
     position:relative;
+    border-bottom:8px solid #222;
 }
 .main--gradient {
     background:rgba(0,0,0,0.7);
@@ -96,4 +97,107 @@ body {
     width:10px;
     margin-left:16px;
 }
+/* MAIN AREA */
 
+/* SECTION-1 AREA */
+.section--1 {
+    background:#000;
+    width:100%;
+    border-bottom:8px solid #222;
+}
+.section--container {
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    padding:30px 0px;
+}
+.section--child--text {
+    flex:1 260px;
+    margin-top:100px;
+}
+.section--child--text h1 {
+    font-size:50px;
+    margin-bottom:8px;
+}
+.section--child--text  {
+    font-size:26px;
+}
+.section--child-tv {
+    flex:1 260px;    
+    position:relative;
+}
+.img--tv {
+    width:530px;
+    position: relative;
+    z-index:20;
+}
+.video--tv {
+    position:absolute;
+    top:80px;
+    left:70px;
+    z-index:10;
+    width:400px;
+}
+/* SECTION-1 AREA */
+
+/* SECTION-2 AREA */
+.section--2 {
+    background:#000;
+    width:100%;
+    border-bottom:8px solid #222;
+    height:469px;
+}
+.section--container--2 {
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    padding:30px 0px;
+    flex-direction:row-reverse;
+}
+.section--child--text--2 {
+    flex:1 260px;
+    margin-top:100px;
+}
+.section--child--text--2 h1 {
+    font-size:50px;
+    margin-bottom:8px;
+}
+.section--child--text--2 p  {
+    font-size:26px;
+}
+.section--child--tv--2 {
+    margin-right:100px;
+    margin-left:-60px;
+}
+.section--card {
+    display:flex;
+    width:330px;
+    height:90px;
+    border:2px solid rgba(255,255,255,.25);
+    border-radius: .75em;
+    padding:8px 12px;    
+    position: relative;
+    background:#000;
+    bottom:135px;
+    left:80px;
+    z-index:999;
+}
+.section--card .tell--img {
+    width:50px;
+    height:70px;
+    margin-top:10px;
+}
+.card--text {
+    margin-top:20px;
+    margin-left:20px;
+}
+.card--text span {
+    color:#0071eb;
+}
+.card--gif {
+    margin-left:10px;
+    margin-top:10px;
+    width:48px;
+    height:60px;
+}
+/* SECTION-2 AREA */
