@@ -16,14 +16,6 @@
 <p>Projeto Realizado para aprimorar conceitos de HTML5 e CSS3 (Flexbox)</p>
 <p>Projeto não está Responsivo</p>
 
-
-## Como rodar a aplicação :arrow_forward:
-No terminal, clone o projeto e abra o arquivo index.html: 
-
-```
-git clone https://github.com/MicaelOliveira-dev/Clone-Netflix.git
-```
- 
 ## Linguagens 🚀 
 ### Código:
 - HTML5
